@@ -52,6 +52,10 @@
 	color: #17dd77;
 }
 
-.page-mark{
+.to-right{
 	float: right;
+}
+
+.duty-people{
+	color: red;
 }
