@@ -1,78 +1,251 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>课程表</title>
 		<meta charset="UTF-8" />
 		<link rel="shortcut icon" href="favicon.png" type="image/png">
-    	<link rel="icon" href="favicon.png" type="image/png">
-		<link rel="stylesheet" href="css/index.css">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+		<link rel="stylesheet" href="css/tesla.css">
+		<title>计算机科学与技术4班课程表</title>
+</head>
+<body>
+	<div class="banner" align="center">
+		<h1>计算机科学与技术4班课程表（软件项目管理方向）</h1>
+	</div>
+	<h4>
+	当前日期：
+	<span id="now-year"></span>年
+	<span id="now-month"></span>月
+	<span id="now-day"></span>日，
+	星期<span id="now-weekday"></span>
+</h4>
+<table border="1" cellspacing="0">
+  <tbody><tr>
+    <th width="1%">╲</th>
+    <th nowrap="" width="15%" class="">星期一</th>
+    <th nowrap="" width="15%">星期二</th>
+    <th nowrap="" width="15%">星期三</th>
+    <th nowrap="" width="15%">星期四</th>
+    <th nowrap="" width="15%">星期五</th>
+    <th nowrap="" width="13%">星期六</th>
+    <th nowrap="" width="13%">星期日</th>
+  </tr>
+  <tr><th>1,2节</th><td align="center">工程数学<br>(11-16)7305<br>课号：1520151<br>嵌入式系统原理及应用<br>(2-2)203<br>课号：1520172</td><td align="center">软件项目管理<br>(15-16)2405<br>课号：1520176<br>计算机网络课程设计<br>(1-1)205<br>课号：1520375<br>嵌入式系统原理及应用<br>(2-2)203<br>课号：1520172</td><td align="center">计算机网络课程设计<br>(1-1)205<br>课号：1520375<br>大学英语III<br>(3-16)2206<br>课号：1520160<br>嵌入式系统原理及应用<br>(2-2)205<br>课号：1520172</td><td align="center">基于.NET的开发技术<br>(3-9)5202<br>课号：1520174<br>工程数学<br>(9-16)7309<br>课号：1520151<br>嵌入式系统原理及应用<br>(2-2)205<br>课号：1520172<br>基于.NET的开发技术<br>(1-1)205<br>课号：1520174</td><td align="center">计算机网络课程设计<br>(1-1)205<br>课号：1520375<br>计算机网络课程设计<br>(4-4)205<br>课号：1520375<br>基于.NET的开发技术-课内实验<br>(5-8)5203<br>课号：1520384<br>计算机网络-课内实验<br>(15-16)5203<br>课号：1520386</td><td align="center">嵌入式系统原理与应用-课内实验<br>(2-3)205<br>课号：1520381</td><td align="center">&nbsp;</td></tr>
+<tr><th>3,4节</th><td align="center">WEB开发技术与应用<br>(3-7)5203<br>课号：1520175<br>计算机网络-课内实验<br>(15-16)5203<br>课号：1520386<br>嵌入式系统原理及应用<br>(2-2)205<br>课号：1520172</td><td align="center">工程数学<br>(9-11)7303<br>课号：1520151<br>基于.NET的开发技术<br>(3-9)2409<br>课号：1520174<br>嵌入式系统原理及应用<br>(2-2)203<br>课号：1520172<br>基于.NET的开发技术<br>(1-1)205<br>课号：1520174</td><td align="center">海洋遥感技术-课内实验<br>(12-15)5203<br>课号：1520382<br>嵌入式系统原理及应用<br>(2-2)203<br>课号：1520172</td><td align="center">软件项目管理<br>(11-16)2402<br>课号：1520176<br>企业自设课程I<br>(3-3)205<br>课号：1520377<br>企业自设课程I<br>(5-7)205<br>课号：1520377<br>嵌入式系统原理及应用<br>(2-2)205<br>课号：1520172</td><td align="center">大学英语III<br>(3-16)2206<br>课号：1520160</td><td align="center">嵌入式系统原理与应用-课内实验<br>(2-3)205<br>课号：1520381</td><td align="center">&nbsp;</td></tr>
+<tr><th>5,6节</th><td align="center">计算机网络课程设计<br>(1-1)205<br>课号：1520375<br>计算机网络课程设计<br>(3-3)205<br>课号：1520375<br>计算机网络<br>(15-16)2209<br>课号：1520171<br>嵌入式系统原理及应用<br>(2-2)205<br>课号：1520172</td><td align="center">计算机网络课程设计<br>(1-1)205<br>课号：1520375<br>计算机网络课程设计<br>(3-3)205<br>课号：1520375<br>基于.Net开发设计实训<br>(10-14)205<br>课号：1520376<br>嵌入式系统原理及应用<br>(2-2)205<br>课号：1520172</td><td align="center">WEB开发技术与应用<br>(3-7)5203<br>课号：1520175<br>计算机网络课程设计<br>(1-1)205<br>课号：1520375<br>计算机网络<br>(8-16)2405<br>课号：1520171<br>嵌入式系统原理及应用<br>(2-2)205<br>课号：1520172</td><td align="center">基于.Net开发设计实训<br>(10-11)205<br>课号：1520376<br>WEB开发技术与应用-课内实验<br>(7-9)5203<br>课号：1520379<br>基于.NET的开发技术-课内实验<br>(3-6)5203<br>课号：1520384<br>嵌入式系统原理及应用<br>(2-2)205<br>课号：1520172</td><td align="center">计算机网络课程设计<br>(2-2)205<br>课号：1520375<br>计算机网络<br>(8-16)2402<br>课号：1520171</td><td align="center">计算机网络课程设计<br>(2-4)205<br>课号：1520375<br>WEB开发技术与应用-课内实验<br>(7-9)5203<br>课号：1520379</td><td align="center">&nbsp;</td></tr>
+<tr><th>7,8节</th><td align="center">基于.Net开发设计实训<br>(11-13)205<br>课号：1520376<br>嵌入式系统原理及应用<br>(2-2)205<br>课号：1520172</td><td align="center">基于.Net开发设计实训<br>(13-14)205<br>课号：1520376<br>嵌入式系统原理及应用<br>(2-2)205<br>课号：1520172</td><td align="center">基于.Net开发设计实训<br>(13-14)205<br>课号：1520376<br>嵌入式系统原理及应用<br>(2-2)205<br>课号：1520172</td><td align="center">企业自设课程I<br>(3-3)205<br>课号：1520377<br>嵌入式系统原理及应用<br>(2-2)205<br>课号：1520172</td><td align="center">&nbsp;</td><td align="center">计算机网络课程设计<br>(2-4)205<br>课号：1520375</td><td align="center">&nbsp;</td></tr>
+<tr><th>晚 上</th><td align="center">基于.Net开发设计实训<br>(10-14)205<br>课号：1520376<br>企业自设课程I<br>(2-8)205<br>课号：1520377</td><td align="center">软件项目管理-课内实验<br>(13-16)205<br>课号：1520378</td><td align="center">基于.Net开发设计实训<br>(10-14)205<br>课号：1520376<br>企业自设课程I<br>(2-7)205<br>课号：1520377</td><td align="center">企业自设课程I<br>(2-7)205<br>课号：1520377<br>软件项目管理-课内实验<br>(13-16)205<br>课号：1520378</td><td align="center">嵌入式系统原理与应用-课内实验<br>(2-5)205<br>课号：1520381</td><td align="center">&nbsp;</td><td align="center">&nbsp;</td></tr>
 
-	</head>
-	<body>
-		<div class="navi">
-			<div class="site-name">
-				A308部落　<a href="./index.html">保护环境</a>　<a href="./schedule.html">课程表</a>
-			</div>
-		</div>
-		<div class="labpaper mate-box">
-			<div class="double-line">
-				<div class="paper-title">桂 林 电 子 科 技 大 学 实 验 报 告 纸</div>
-			</div>
-            <div class="single-line">
-                课 程 表
-            </div>
-            <div class="single-line"></div>
+  <tr>
+    <th>备注</th>
+    <td colspan="7">工程数学:蒋群华；基于.NET的开发技术:黄静；软件项目管理:蔡迅华；WEB开发技术与应用:许传西；计算机网络课程设计:谭印；基于.Net开发设计实训:徐文华；企业自设课程I:许传西；软件项目管理-课内实验:蔡迅华；WEB开发技术与应用-课内实验:许传西；嵌入式系统原理与应用-课内实验:企业教师1；海洋遥感技术-课内实验:王晓莹；基于.NET的开发技术-课内实验:黄静；计算机网络-课内实验:黄静；大学英语III:张维益；计算机网络:黄静；嵌入式系统原理及应用:企业教师1</td>
+  </tr>
 
-			<div class="single-line">
-				<span>只显示当天的课，完整课表==><a href="./schedule.html">课程表</a></span>
-				<span class="to-right">
-					<span id="now-year"></span> 年
-					<span id="now-month"></span> 月
-					<span id="now-day"></span> 日，
-					星期<span id="now-weekday"></span>
-				</span>
-			</div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-      <div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="single-line"></div>
-			<div class="double-line"></div>
-			<div class="only-words"><span>40333.09.05</span><span class="to-right">第　　　　页</span></div>
-		</div>
+</tbody></table>
 
-        <br><br><hr>
-        <p align="center">© 2015 A308部落</p>
 
-        <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-		<script src="js/jquery.min.js"></script>
-		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-		<script src="js/bootstrap.min.js"></script>
-		<!--计算当天值日生-->
-		<script src="js/index.js"></script>
-	</body>
+
+<hr size="4" color="#808080">
+
+<p></p>
+<p><b><font size="4" color="#FF0000">请同学们注意实验时间：</font></b></p>
+<p><b><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;实践部的金鸡岭校区作息时间：第一大节8:00～10:00，第二大节10:20～12:20，第三大节14:10～16:10，第四大节16:30～18:30，第五大节19:30～21:30，请同学们相互转告。</font></b></p>
+<p><b><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;实践部的花江校区作息时间：第一大节8:25～10:00，第二大节10:25～12:00，第三大节14:30～16:05，第四大节16:30～18:05，第五大节19:00～20:30，请同学们相互转告。</font></b></p>
+
+<hr color="#808080" width="100%" size="4">
+<form method="POST" action="/student/coursetable.asp">
+  <table border="1" cellspacing="0" width="100%" align="center">
+  <tbody><tr>
+    <th nowrap="">课程名称</th>
+    <th nowrap="">实验名称</th>
+    <th nowrap="">批次</th>
+    <th nowrap="">实验时间</th>
+    <th nowrap="">实验地点</th>
+    <th nowrap="">开课专业</th>
+    <th nowrap="">备注</th>
+  </tr>
+
+</tbody></table>
+
+<p>所选课程辅导答疑安排!</p>
+
+<br><br>
+<table border="0" align="center" width="100%"><tbody><tr><td align="center" valign="top" id="pagecontrol">
+<b><font size="5" face="楷体_GB2312">所选课程辅导答疑安排情况</font></b></td>
+
+  </tr></tbody></table><table border="1" width="60%" align="center">
+    <tbody><tr>
+      <th nowrap="">课号</th>
+      <th nowrap="">课程代码</th>
+      <th nowrap="">课程名称</th>
+      <th nowrap="">辅导教师</th>
+      <th nowrap="">答疑地点</th>
+      <th nowrap="">答疑起始周</th>
+      <th nowrap="">结束周</th>
+      <th nowrap="" width="80">星期</th>
+      <th nowrap="" width="80">时间</th>
+    </tr>
+
+ <tr>
+
+     <td nowrap="">1520160</td>
+
+     <td nowrap="">BG1600029X0</td>
+
+     <td nowrap="">大学英语III</td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+ </tr>
+
+ <tr>
+
+     <td nowrap="">1520151</td>
+
+     <td nowrap="">BG1618000X0</td>
+
+     <td nowrap="">工程数学</td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+ </tr>
+
+ <tr>
+
+     <td nowrap="">1520171</td>
+
+     <td nowrap="">BT1603009X0</td>
+
+     <td nowrap="">计算机网络</td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+ </tr>
+
+ <tr>
+
+     <td nowrap="">1520172</td>
+
+     <td nowrap="">BT1606016X0</td>
+
+     <td nowrap="">嵌入式系统原理及应用</td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+ </tr>
+
+ <tr>
+
+     <td nowrap="">1520174</td>
+
+     <td nowrap="">XZ1606017X0</td>
+
+     <td nowrap="">基于.NET的开发技术</td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+ </tr>
+
+ <tr>
+
+     <td nowrap="">1520175</td>
+
+     <td nowrap="">XZ1606020X0</td>
+
+     <td nowrap="">WEB开发技术与应用</td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+ </tr>
+
+ <tr>
+
+     <td nowrap="">1520176</td>
+
+     <td nowrap="">XZ1606021X0</td>
+
+     <td nowrap="">软件项目管理</td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+     <td nowrap=""></td>
+
+ </tr>
+
+  </tbody></table>
+  </form>
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="js/jquery.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="js/bootstrap.min.js"></script>
+<!--计算当天值日生-->
+<script src="js/tesla.js"></script>
+</body>
 </html>
